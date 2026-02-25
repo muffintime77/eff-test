@@ -34,7 +34,7 @@ services:
     networks:
       - app_net
     healthcheck:
-      test: ["CMD-SHELL", "curl -f http://localhost/health || exit 1"]
+      test: ["CMD-SHELL", "curl -f http://localhost/healthz || exit 1"]
       interval: 10s
       retries: 3
       timeout: 3s
