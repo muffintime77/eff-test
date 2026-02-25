@@ -43,7 +43,7 @@ cd eff-test
 git checkout v1.0
 ```
 
-#№# 3. Настроить переменные
+### 3. Настроить переменные
 
 ```
 mv .env.exaple .env
