@@ -46,7 +46,7 @@ git checkout v1.1
 ### 3. Настроить переменные
 
 ```
-mv .env.exaple .env
+cp .env.exaple .env
 ```
 
 ### 3. Собрать и запустить проект
