@@ -32,12 +32,18 @@
 
 ```
 
-git clone <repo_url>
-cd <repo_name>
+git clone https://github.com/muffintime77/eff-test.git
+cd eff-test
 
 ```
 
-#№# 2. Настроить переменные
+### 2. переключится на последний тэг
+
+```
+git checkout v1.0
+```
+
+#№# 3. Настроить переменные
 
 ```
 mv .env.exaple .env
